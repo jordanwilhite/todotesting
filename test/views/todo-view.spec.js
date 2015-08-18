@@ -24,7 +24,7 @@ describe ('TodoView', function(){
     this.view = new TodoView({
       collection: this.collection
   });
-    this.view.onToggle(view);
+    this.view.onToggle(model);
       expect this.view
   });
 
